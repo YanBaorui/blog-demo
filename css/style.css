@@ -11,6 +11,7 @@ a, body{
 .side-bar{
 	float: left;
 	width: 20%;
+	position: fixed;
 	/*background: #07889B;*/
 }
 .side-bar > *{
@@ -40,19 +41,34 @@ a, body{
 }
 header .logo{
 	line-height: 1;
-	border: 5px solid #F4F4F4;
 	padding: 10px 20px;
-	font-size: 30px;
+	font-size: 18px;
 	display: inline-block;
 	margin-bottom: 10px;
+	font-family:fantasy;
 }
-.articleList{
+.articleList, .article{
 	margin-right: 30%;
 	background: #F4F4F4;
 	padding: 20px 30px;
+	box-shadow: 3px 4px 12px 0px rgba(0,0,0,0.4);
 }
-.articleList .item .title{
+.articleList .item{
+	margin-bottom: 20px;
+}
+.articleList .item >*,
+.article >*{
+	margin: 10px 0;
+	
+}
+.articleList .item >a,
+.article >h1{
 	font-size: 24px;
 	font-weight: 700;
-	margin: 10px 0;
+	color: #07889B;
+}
+.articleList .item .status,
+.article .status{
+	font-size:13px;
+	color: #66B9BF;
 }
