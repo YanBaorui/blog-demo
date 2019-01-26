@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<link href="https://cdn.bootcss.com/normalize/8.0.1/normalize.min.css" rel="stylesheet">
+		<link rel="stylesheet" href="css/style.css" />
+		<title>MY BLOG</title>
+	</head>
+	<body>
+		<div class="side-bar">
+			<header>
+				<a href="index.html" class="logo">嚴</a>
+				<div class="intro">
+					ajfah hfa;h ;oa h;ao hlf h
+				</div>
+			</header>
+			<nav>
+				<a href="#" class="item">關於我</a>
+				<a href="#" class="item">聯繫我</a>
+				<a href="#" class="item">投食</a>
+			</nav>
+			<div class="tag-list">
+				<a href="#" class="item"># 夸我</a>
+				<a href="#" class="item"># 愛我</a>
+				<a href="#" class="item"># 舉高高</a>
+			</div>
+		</div>
+		<div class="main">
+			<div class="articleList">
+				<div class="item">
+					<div class="title">
+						MY FIRST BLOG
+					</div>
+					<div class="status">
+						發佈於：2112-3-25 | 閱讀 ：4356 | 標籤：HTML
+					</div>
+					<div class="content">
+						当输入的元素是 n {\displaystyle n} n个 0 {\displaystyle 0} {\displaystyle 0 }到 k {\displaystyle k} k 之间的整数时，它的运行时间是 Θ ( n + k ) {\displaystyle \Theta (n+k)} {\displaystyle \Theta (n+k)}。计数排序不是比较排序，排序的速度快于任何比较排序算法。
+
+由于用来计数的数组 C {\displaystyle C} C 的长度取决于待排序数组中数据的范围（等于待排序数组的最大值与最小值的差加上1），这使得计数排序对于数据范围很大的数组，需要大量时间和内存。例如：计数排序是用来排序0到100之间的数字的最好的算法，但是它不适合按字母顺序排序人名。但是，计数排序可以用在基数排序算法中，能够更有效的排序数据范围很大的数组。
+
+通俗地理解，例如有10个年龄不同的人，统计出有8个人的年龄比A小，那A的年龄就排在第9位，用这个方法可以得到其他每个人的位置，也就排好了序。当然，年龄有重复时需要特殊处理（保证稳定性），这就是为什么最后要反向填充目标数组，以及将每个数字的统计减去1。算法的步骤如下：
+
+    找出待排序的数组中最大和最小的元素
+    统计数组中每个值为 i {\displaystyle i} i的元素出现的次数，存入数组 C {\displaystyle C} C 的第 i {\displaystyle i} i项
+    对所有的计数累加（从 C {\displaystyle C} C 中的第一个元素开始，每一项和前一项相加）
+    反向填充目标数组：将每个元素 i {\displaystyle i} i放在新数组的第 C [ i ] {\displaystyle C[i]} {\displaystyle C[i]}项，每放一个元素就将 C [ i ] {\displaystyle C[i]} {\displaystyle C[i]}减去1
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
